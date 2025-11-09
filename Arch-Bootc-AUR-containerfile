@@ -17,7 +17,7 @@ RUN --mount=type=tmpfs,dst=/tmp \
 
 # These are example AUR packages, replace as you like. Multi-line or all one line both work for package install.
 RUN paru -S --noconfirm \
-        aur/steam-devices-git aur/uxplay aur/niri-git aur/noctalia-shell-git aur/matugen-bin aur/input-remapper-bin
+        aur/steam-devices-git aur/uxplay aur/niri-git aur/noctalia-shell-git aur/matugen-bin aur/input-remapper-bin \
         aur/uxplay \
         aur/niri-git \
         aur/noctalia-shell-git \
@@ -26,7 +26,7 @@ RUN paru -S --noconfirm \
 
 USER root
 WORKDIR /
-
+# Cleanup and delete build user
 RUN userdel -r build && \
     rm -drf /home/build && \
     sed -i '/build ALL=(ALL) NOPASSWD: ALL/d' /etc/sudoers && \
