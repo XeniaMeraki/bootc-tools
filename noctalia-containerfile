@@ -1,0 +1,46 @@
+# Noctalia Service add
+RUN echo -ne '[Unit] \n\
+Description=Noctalia Shell Service \n\
+PartOf=graphical-session.target \n\
+After=graphical-session.target \n\
+ \n\
+[Service] \n\
+ExecStart=qs -p /etc/xdg/quickshell/noctalia-shell \n\
+Restart=on-failure \n\
+RestartSec=1 \n\
+\n\
+[Install] \n\
+WantedBy=graphical-session.target' > /usr/lib/systemd/user/noctalia.service
+
+# XWayland Satellite Systemd Service
+RUN echo -ne '[Unit] \n\
+Description=Xwayland satellite \n\
+PartOf=graphical-session.target \n\
+After=graphical-session.target \n\
+ \n\
+[Service] \n\
+ExecStart=xwayland-sattelite \n\
+Restart=on-failure \n\
+RestartSec=1 \n\
+\n\
+[Install] \n\
+WantedBy=graphical-session.target' > /usr/lib/systemd/user/xwayland-satellite.service
+
+# Starts with Niri Session - Services for User Interaction
+RUN sed -i "s/\[Unit\]/\[Unit\]\nWants=plasma-polkit-agent.service/" "/usr/lib/systemd/user/niri.service"
+RUN sed -i "s/\[Unit\]/\[Unit\]\nWants=udiskie.service/" "/usr/lib/systemd/user/niri.service"
+RUN sed -i "s/\[Unit\]/\[Unit\]\nWants=xwayland-satellite.service/" "/usr/lib/systemd/user/niri.service"
+RUN sed -i "s/\[Unit\]/\[Unit\]\nWants=noctalia.service/" "/usr/lib/systemd/user/niri.service"
+RUN systemctl enable greetd
+
+# Greetd Setup - Login Manager
+RUN echo 'u     greetd -     "greetd daemon" /var/lib/greetd' > /usr/lib/sysusers.d/greetd.conf
+RUN echo 'Z  /var/lib/greetd -    greetd greetd -   -' > /usr/lib/tmpfiles.d/greetd.conf
+
+# Login tui setup
+RUN echo -ne '[terminal]\n\
+vt = 1\n\
+\n\
+[default_session]\n\
+command = "tuigreet --time --user-menu --remember --remember-session --asterisks --power-no-setsid --width 140 --theme border=magenta;text=magenta;prompt=lightmagenta;time=magenta;action=lightmagenta;button=magenta;container=gray;input=magenta --cmd niri-session"\n\
+user = "greetd"' > /etc/greetd/config.toml
