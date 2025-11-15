@@ -1,14 +1,18 @@
 # bootc-tools
 
 
-
 Various tools and scripts and documentation to help people build custom images/bootc-based "distros"/bootc containers/OCI images.
 
 
-Discords and communication avenues for talking to fellow bootc users/maintainers/custom builders:
+# Discords and communication avenues 
+
+for talking to fellow bootc users/maintainers/custom builders:
 
 
 [Bootcrew](https://discord.gg/aj4K4zsuUx) [Zirconium](https://discord.gg/mmgNQpxwhW) [Bazzite/Aurora](https://discord.bazzite.gg/) [Bazzite subreddit](https://www.reddit.com/r/Bazzite/) [Bazzite Discourse](https://universal-blue.discourse.group/c/bazzite/5) [Blue Build](https://discord.gg/FuZkAmWZA8) [Fedora](https://discord.com/invite/fedora) [XeniaOS 18+](https://discord.gg/gkZWX4E)
+
+
+# Bootc image templates and documentation
 
 
 Blue Build custom image bootc template (sh files focus) - https://github.com/blue-build/template
