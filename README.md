@@ -45,9 +45,6 @@ https://bb-directory.github.io/ - Directory of custom blue build (and others) bo
 https://universal-blue.discourse.group/t/list-of-community-created-custom-images/340 - A short list of close-to-Bazzite custom images.
 
 
-I have ongoing requests for Chaotic-AUR to host a couple packages for quicker Arch Bootc compile times: [https://github.com/chaotic-aur/packages/issues/3966](bootc) [https://github.com/chaotic-aur/packages/issues/3974](flatpak-git) Reactions to these posts to show support is appreciated.
-
-
 ISO Build Instructions: https://osbuild.org/docs/bootc/
 
 
