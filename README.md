@@ -33,12 +33,6 @@ https://docs.bazzite.gg/ - For regular user use of the Bazzite OS, lots of tips 
 https://github.com/bootc-dev/bootc - Bootc Github
 
 
-https://github.com/bootcrew/arch-bootc - A template image for Arch Bootc systems to work from. (I am elevating this above other templates from personal bias)
-
-
-https://github.com/XeniaMeraki/XeniaOS - Speaking of personal bias, this is my own bootc project. Based on Arch Bootc, making use of AURs, forging the way forward for non-Fedora Bootc based images. (Fedora Bootc until very recently was the Only base you could use.)
-
-
 https://bb-directory.github.io/ - Directory of custom blue build (and others) bootc images, usually being "distros" with a much smaller amount of users than Bazzite/Aurora/Bluefin/Fedora Silverblue as the most well-known variants of bootc.
 
 
