@@ -15,10 +15,10 @@ for talking to fellow bootc users/maintainers/custom builders:
 # Bootc image templates and documentation
 
 
-Blue Build custom image bootc template (sh files focus) - https://github.com/blue-build/template
+Blue Build custom image bootc template - https://github.com/blue-build/template
 
 
-Universal Blue custom image bootc template (container file focus) - https://github.com/ublue-os/image-template
+Universal Blue custom image bootc template - https://github.com/ublue-os/image-template
 
 
 Bluefin custom image template - https://github.com/projectbluefin/finpilot
