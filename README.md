@@ -31,7 +31,10 @@ Fedora bootable containers - https://docs.fedoraproject.org/en-US/bootc/getting-
 Bootc documentation for developers - https://bootc-dev.github.io/
 
 
-For regular user use of the Bazzite OS, lots of tips for regular usage of any bootc system/the downfalls - https://docs.bazzite.gg
+For regular user use of Bazzite, lots of tips for regular usage of any bootc system/the downfalls - https://docs.bazzite.gg
+
+
+For regular user use of Bluefin: https://docs.projectbluefin.io/introduction/ [LLM/AI Extension](https://deepwiki.com/ublue-os/bluefin-docs/2.1-image-architecture-and-bootc)
 
 
 Bootc Github - https://github.com/bootc-dev/bootc
