@@ -1,7 +1,7 @@
 # bootc-tools
 
 
-Various tools and scripts and documentation to help people build custom images/bootc-based "distros"/bootc containers/OCI images.
+Various tools and scripts and documentation to help people build custom images/bootc-based "distros"/bootc containers/OCI images
 
 
 # Bootc image templates
@@ -60,7 +60,8 @@ ISO Build Instructions from Red Hat - [link](https://docs.redhat.com/en/document
 
 # Discords and communication avenues 
 
-for talking to fellow bootc users/maintainers/custom builders:
+
+For talking to fellow bootc users/maintainers/custom builders
 
 
 [Bootcrew](https://discord.gg/aj4K4zsuUx) [Zirconium](https://discord.gg/mmgNQpxwhW) [Bazzite/Aurora](https://discord.bazzite.gg/) [Bazzite subreddit](https://www.reddit.com/r/Bazzite/) [Bazzite Discourse](https://universal-blue.discourse.group/c/bazzite/5) [Blue Build](https://discord.gg/FuZkAmWZA8) [Fedora](https://discord.com/invite/fedora) [XeniaOS 18+](https://discord.gg/gkZWX4E) [Fyra Labs](https://fyralabs.com/discord)
@@ -77,7 +78,7 @@ for talking to fellow bootc users/maintainers/custom builders:
 # Custom image repos/Notable custom images
 
 
-A collection of cloud native projects including bootc projects [Artifact.io](https://artifacthub.io/) [What is cloud native?](https://universal-blue.org/)
+A collection of cloud native projects including bootc projects - [Artifact.io](https://artifacthub.io/) [What is cloud native?](https://universal-blue.org/)
 
 
 Directory of custom usually blue build template bootc images - https://bb-directory.github.io 
