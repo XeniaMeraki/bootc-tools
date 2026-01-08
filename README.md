@@ -10,10 +10,10 @@ Various tools and scripts and documentation to help people build custom images/b
 Boot Crew - https://github.com/bootcrew
 
 
-Blue Build custom image bootc template - https://github.com/blue-build/template
+Blue Build custom image template - https://github.com/blue-build/template
 
 
-Universal Blue custom image bootc template - https://github.com/ublue-os/image-template
+Universal Blue custom image template - https://github.com/ublue-os/image-template
 
 
 Bluefin custom image template - https://github.com/projectbluefin/finpilot
@@ -22,7 +22,10 @@ Bluefin custom image template - https://github.com/projectbluefin/finpilot
 # Bootc Documentation
 
 
-Podman documentation, helps a lot with understanding containerfile use - https://docs.podman.io/en/latest/Introduction.html
+Podman documentation - https://docs.podman.io/en/latest/Introduction.html
+
+
+Docker documentation - https://docs.docker.com/
 
 
 Fedora bootable containers - https://docs.fedoraproject.org/en-US/bootc/getting-started/
@@ -31,7 +34,7 @@ Fedora bootable containers - https://docs.fedoraproject.org/en-US/bootc/getting-
 Bootc documentation for developers - https://bootc-dev.github.io/
 
 
-For regular user use of Bazzite, lots of tips for regular usage of any bootc system/the downfalls - https://docs.bazzite.gg
+For regular user use of Bazzite; lots of tips for regular usage of any bootc system/the downfalls - https://docs.bazzite.gg
 
 
 For regular user use of Bluefin: https://docs.projectbluefin.io/introduction/ [LLM/AI Extension](https://deepwiki.com/ublue-os/bluefin-docs/2.1-image-architecture-and-bootc)
