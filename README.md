@@ -64,6 +64,15 @@ ISO Build Instructions - https://osbuild.org/docs/bootc/
 ISO Build Instructions from Red Hat - [link](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/using_image_mode_for_rhel_to_build_deploy_and_manage_operating_systems/creating-bootc-compatible-base-disk-images-with-bootc-image-builder_using-image-mode-for-rhel-to-build-deploy-and-manage-operating-systems)
 
 
+# Server images and related tools
+
+
+Example images: [Piperita](https://github.com/tulilirockz/piperita) [Piperita Quadlets](https://github.com/tulilirockz/marmorata) [Amenity](https://github.com/virtualfreeex/amenity) [Dwedia's Quadlets](https://github.com/dwedia/podmanQuadlets)
+
+
+Quadlets explained: [Bazzite doc](https://docs.bazzite.gg/Installing_and_Managing_Software/Quadlet/) [Dwedia Explains](https://github.com/dwedia/podmanQuadlets) [linuxconfig.com](https://linuxconfig.org/how-to-run-podman-containers-under-systemd-with-quadlet) [Podman doc](https://docs.podman.io/en/latest/markdown/podman-quadlet.1.html)
+
+
 # Discords and communication avenues 
 
 
